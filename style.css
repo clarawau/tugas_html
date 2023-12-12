@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: medium;
+}
+header {
+    background-color: pink;
+    color: white;
+    text-align:center;
+    padding: 1em;
+    font-size: medium;
+    font-style: initial;
+}
+section {
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer {
+    text-align:center;
+    padding: 1em;
+    background-color: pink;
+    color: white;
+    font-size: xxx-large;
+}  @keyframes jedagJedug {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+        .jedag-jedug-text {
+            font-size: 24px;
+            color: #ff0000; 
+            animation: jedagJedug 1s infinite;  
+}
+            #profile img {
+                border-radius: 50%;
+                max-width: 100%;
+                height: auto;
+ }

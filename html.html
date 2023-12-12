@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <title> @wauclaraelisabeth - 71231065 - Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header>
+        <marquee behavior='alternate'>
+        <h1>
+           Personal Webpage
+        </h1>
+    </marquee>
+    </header><p>
+        <img align="right" 
+         src="clarawau.JPG" width ="300" style="border: 6px solid pink">
+         </p>
+    <section align="middle" id="tentang-saya">
+        <link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css"/>
+<div class="nprinsley-text-rainbowan">
+        <h2>
+            Clara Elisabeth Wau
+        </h2>
+        </div>
+        <a href="https://www.instagram.com/wauclaraelisabeth/">
+        <type>
+            @wauclaraelisabeth
+        </type>
+        </a>
+        <h3>
+            Nias selatan, Sumatera Utara, Indonesia
+        </h3>
+        <a href="https://www.ukdw.ac.id/profil/">
+        <h4>
+            Duta Wacana Christian University
+        </h4>
+        </a>
+    </section>
+    <section align="middle" id="keterampilan">
+        <h5>
+            <ul> Skillset
+                <li ><a href="https://www.w3schools.com/c/index.php"> Coding C </a></li>
+                <li><a href="https://www.w3schools.com/html/default.asp">Coding HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">Coding CSS,</a></li>
+                <li><a href="https://www.w3schools.com/java/default.asp">JAVA</a></li>
+            </ul>
+        </h5>
+        <h1>Musik kesukaan clara</h1>
+  <audio controls>
+    <source src="lagu_clara.mp3" type="audio/mpeg">
+  </audio><h1>video teman-teman clara</h1>
+  <video width="500" height="360" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+    </section>
+    
+    <button id="tombolGantiWarna">Ganti Warna</button>
+    <footer>
+        <h1 class="jedag-jedug-text">Thank You For Visiting</h1>
+    </footer>
+    <script>
+        const bodyElement = document.body;
+        function gantiWarnaRandom() {
+            const warnaList = ['#ff0000', '#0000ff', '##008000', '#ffffff']
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+        const tombolGantiWarna = document.getElementById('tombolGantiWarna')
+        tombolGantiWarna.addEventListener('click',gantiWarnaRandom)
+    </script>
+</body>
+</html>
